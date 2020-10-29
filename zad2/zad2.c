@@ -15,7 +15,7 @@ int main(int argc, char*argv[])
     int q; 
     
     FILE *fin;
-    fin= fopen("A.txt", "r"); //macierz
+    fin= fopen(argv[1], "r"); //macierz
     fscanf(fin, "%d", &h);
     fscanf(fin, "%d", &w);
     float macierz[h][w];
@@ -27,7 +27,7 @@ int main(int argc, char*argv[])
         }
     }
 
-    fin= fopen("x.txt", "r"); //wektor
+    fin= fopen(argv[2], "r"); //wektor
     
     fscanf(fin, "%d", &p);
     fscanf(fin, "%d", &q);
