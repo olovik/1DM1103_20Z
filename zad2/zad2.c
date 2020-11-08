@@ -36,11 +36,6 @@ int main(int argc, char*argv[])
         {
             fscanf(fin, "%f", &wektor[i]);
         }
-  //  for(int i=0; i<h;i++)
-    //    {
-      //      for(int j=0;j<q;j++)
- //               wynik[i][j]=0;
-   //     }
    printf("(%d) [", h);  
     for(int i=0;i<h; i++)
         {
@@ -52,5 +47,6 @@ int main(int argc, char*argv[])
             printf("%1.1f ", suma);
         }
         printf("]\n");
+        fclose(fin);
         return 0;
 }
