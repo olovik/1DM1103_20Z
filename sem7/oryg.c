@@ -128,7 +128,8 @@ void najlepszy_student(student dane[100], int ile_rekordow) {
 
 }
 
-int main(int argc, char ** argv) {
+int main(int argc, char ** argv) 
+{
     student dane[100];
     int ile;
     ile = wczytaj(dane, argv[1]);
